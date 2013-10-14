@@ -607,8 +607,59 @@ the_post*/
 	height: 0;
 	border-top: 1px dashed rgba(0, 0, 0, 0.1);
 	border-bottom: 1px dashed rgba(255, 255, 255, 0.3);
-	margin-left: 15px;
-	margin-right: 15px;
+	/*margin-left: 15px;
+	margin-right: 15px;*/
+}
+
+.recently-added {
+	border: 1px #e2e2e2 solid;
+	border-bottom: none;
+	padding: 15px 15px;
+}
+
+.recently-added h3 {
+	font-family: "GeorgiaFont";
+	font-size: 30px;
+	text-transform: uppercase;
+	padding: 10px 0;
+}
+
+.recently-added img {
+	float: left;
+	padding: 15px 15px;
+	margin-right: 10px;
+	border: 1px #e2e2e2 solid;
+}
+
+.recently-added h2{
+	font-family: "GeorgiaFont";
+	font-weight: bold;
+	padding-bottom: 20px;
+	font-size: 28px;
+}
+
+.recently-added p {
+	color: #444;
+	font-size: 18px;
+}
+
+.recently-added p.author {
+	font-style: italic;
+}
+
+.recently-added p.read-more {
+	padding-top: 20px;
+	padding-right: 10px;
+	float: right;
+}
+
+.recently-added p.read-more a {
+	text-decoration: none;
+	color: #444;
+}
+
+.recently-added p.read-more a:hover {
+	color: #888;
 }
 
 .container .category .the_post_url {
@@ -623,7 +674,7 @@ the_post*/
 }
 
 .container .category .the_post_url .the_post {
-	padding: 15px 5px;
+	padding: 15px 15px;
 	margin: 0;
 	border-bottom: 1px #e2e2e2 solid
 }
