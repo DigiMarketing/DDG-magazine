@@ -605,7 +605,6 @@ the_post*/
 	border-bottom-left-radius: 5px;
 	position: relative;
 	top: 314px;
-	display: none;
 	z-index: 1000;
 }
 
@@ -762,6 +761,8 @@ the_post*/
 	margin: 10px 10px;
 	padding: 5px 5px;
 	border: 1px #e2e2e2 solid;
+	border-top: none;
+	padding-top: 5px; 
 }
 
 .grid .items h2 {
@@ -772,6 +773,7 @@ the_post*/
 
 .grid .items p {
 	margin: 10px 10px;
+	font-size: 14px;
 }
 
 .grid .items p.author {

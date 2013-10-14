@@ -59,13 +59,13 @@
 			return false;
 		});
 
-		$(".main-container").mouseenter(function() {
-			$('.controls').fadeIn();
-		});
+		// $(".main-container").mouseenter(function() {
+		// 	$('.controls').fadeIn();
+		// });
 
-		$(".main-container").mouseleave(function() {
-			$('.controls').fadeOut();
-		});
+		// $(".main-container").mouseleave(function() {
+		// 	$('.controls').fadeOut();
+		// });
 
 		$("a.grid").click(function() {
 			$(".item").addClass("grid");
