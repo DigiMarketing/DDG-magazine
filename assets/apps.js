@@ -1,6 +1,6 @@
 // javascript code goes here
 
-	$(".preloading").hide();
+	//$(".preloading").hide();
 
 	function loaded() {
 		
