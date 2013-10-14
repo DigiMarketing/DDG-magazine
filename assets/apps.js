@@ -60,4 +60,4 @@
 		
 	});
 
-	//$(".preloading").hide();
+	$(".preloading").hide();
