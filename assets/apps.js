@@ -1,5 +1,7 @@
 // javascript code goes here
 
+	$(".preloading").hide();
+
 	function loaded() {
 		
 		setTimeout(function() {
@@ -57,7 +59,25 @@
 			return false;
 		});
 
+		$(".main-container").mouseenter(function() {
+			$('.controls').fadeIn();
+		});
+
+		$(".main-container").mouseleave(function() {
+			$('.controls').fadeOut();
+		});
+
+		$("a.grid").click(function() {
+			$(".item").addClass("grid");
+			return false;
+		});
+
+		$("a.list").click(function() {
+			$(".item").removeClass("grid").addClass("list");
+			return false;
+		});
+
+
+
 		
 	});
-
-	//$(".preloading").hide();
