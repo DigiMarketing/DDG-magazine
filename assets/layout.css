@@ -611,6 +611,25 @@ the_post*/
 	margin-right: 15px;*/
 }
 
+.container .innerpage p {
+	color: #444;
+	font-size: 18px;
+	padding: 5px 0;
+	text-align: justify;
+}
+
+.container .innerpage p.author {
+	font-style: italic;
+}
+
+.container .innerpage img {
+	float: left;
+	margin: 20px;
+	width: 223px;
+	height: 261px;
+	margin-left: 0;
+}
+
 .recently-added {
 	border: 1px #e2e2e2 solid;
 	border-bottom: none;

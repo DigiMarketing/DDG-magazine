@@ -79,5 +79,26 @@
 
 
 
+
+		// below is a dummy script for the links 
+
+		$('.main-nav-ul ul li a').click(function() {
+			window.location.replace("category-page.html");
+			return false;
+		});
+
+		$('.item a').click(function() {
+			window.location.replace("innerpages.html");
+			return false;
+		});
 		
+		$('.recently-added p.read-more a').click(function() {
+			window.location.replace("innerpages.html");
+			return false;
+		});
+
+		$('#whats-new-list-carousel li div').click(function() {
+			window.location.replace("innerpages.html");
+			return false;
+		});
 	});
